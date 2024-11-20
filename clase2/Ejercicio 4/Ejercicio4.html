@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+    <script>
+        function mensajeArea3(){
+            alert("Has hecho click en el area 3");
+        }
+    </script>
+</head>
+<body>
+    <!-- Ejercicio 4 -->
+    <img src="https://placehold.co/600x400" alt="placehoold" usemap="#workmap">
+    <map name="workmap">
+        <area shape="rect" coords="0, 0, 600, 100" href="area1.html" alt="area1">
+        <area shape="circle" coords="300, 200, 50" href="area2.html" alt="area2">
+        <area shape="rect" coords="0, 400, 300, 100" alt="area3" href="javascript:mensajeArea3();">
+    </map>
+</body>
+</html>

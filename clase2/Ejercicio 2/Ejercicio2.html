@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <h1>Ejercicio 2</h1>
+    <form action="registro.php" method="post" autocomplete="on">
+        <fieldset>
+            <legend>Datos:</legend>
+            <!--Nombre-->
+            <label for="NombreCompleto">Nombre Completo: </label>
+            <input type="text" id="NombreCompleto" required> <br><br>
+            <!--Correo Electronico-->
+            <label for="CorreoElectronico">Correo Electrónico: </label>
+            <input type="email" id="CorreoElectronico" required><br><br>
+            <!--Teléfono-->
+            <label for="tlfono">Teléfono: </label>
+            <input type="tel" pattern="[0-9]{9}"> <br> <br>
+        </fieldset> <br>
+        <fieldset>
+            <legend>Mensaje: </legend>
+            <!--Asunto-->
+            <label for="asunto">Asunto: </label>
+            <select id="asunto">
+                <option value="Consulta">Consulta</option>
+                <option value="Sugerencia">Sugerencia</option>
+                <option value="Reclamo">Reclamo</option>
+            </select> <br> <br>
+            <!--Mensaje-->
+            <label for="mensaje">Mensaje: </label> <br>
+            <textarea id="mensaje"></textarea> <br> <br>
+            <!--Campo Oculto-->
+            <input type="hidden" id="oculto" value="tokenOculto">
+        </fieldset> <br>
+            <!--Boton Enviar-->
+            <input type="submit" value="Enviar"> <br><br>
+            <!--Boton Reset-->
+            <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

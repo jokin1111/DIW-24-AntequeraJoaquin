@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+</head>
+<body>
+    <h1>Ejercicio 3</h1>
+    <form action="encuesta.php" method="POST" autocomplete="on">
+        <fieldset>
+            <legend>Datos:</legend>
+            <!--Nombre-->
+            <label for="NombreCompleto">Nombre Completo: </label>
+            <input type="text" id="NombreCompleto" required> <br><br>
+            <!--Correo Electronico-->
+            <label for="Edad">Edad: </label>
+            <input type="number" id="Edad" required><br><br>
+            <!--Teléfono-->
+            <label for="FechaVisita">Fecha de visita: </label>
+            <input type="date" required> <br> <br>
+            <!--Calificación Personal-->
+            <label for="calPersonal">Calificación Personal: </label>
+            <input type="range" id="calPersonal" min="1" max="10" oninput="imprimir()"> <br> <br>
+            <!--Output calificacion-->
+            <label id="valorEscogido">valorEscogido:</label> <br> <br>
+            <!--Servicios utilizados-->
+            <label for="Restaurante">Restaurante: </label>
+            <input type="checkbox" id="Restaurante"><br>
+            <label for="Spa">Spa: </label>
+            <input type="checkbox" id="Spa" ><br>
+            <label for="Gimnasio">Gimnasio: </label>
+            <input type="checkbox" id="Gimnasio"> <br>
+            <label for="Piscina">Piscina: </label>
+            <input type="checkbox" id="Piscina"> <br>
+            <!--Comentarios adicionales-->
+            <label for="mensaje">Comentarios Adicionales: </label> <br>
+            <textarea id="mensaje"></textarea> <br> <br>
+            <!--Favorito-->
+            <label for="colorFav">Color favorito:</label>
+            <input type="color" id="colorFav">
+        </fieldset> <br>
+        <!--Boton Enviar-->
+        <input type="submit" value="Enviar"> <br><br>
+        <!--Boton Reset-->
+        <input type="reset" value="Reset">
+    </form>
+    <script>
+        function imprimir(){
+            var calPersonal = document.getElementById("calPersonal").value;
+            var valEscogido = document.getElementById("valorEscogido");
+            valEscogido.innerHTML = "valorEscogido: " + calPersonal;        
+        }
+    </script>
+</body>
+</html>

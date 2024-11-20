@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemeplo de formulario con todos los tipos de inputs</title>
+</head>
+<body>
+    
+    <h1>Ejercicio 1</h1>
+    <form action="registro.php" method="post" enctype="multipart/form-data" autocomplete="on">
+        <!--Nombre completo-->
+        <label for="NombreCompleto">Nombre Completo: </label>
+        <input type="text" id="NombreCompleto" required> <br><br>
+        <!--Correo Electronico-->
+        <label for="CorreoElectronico">Correo Electrónico: </label>
+        <input type="email" id="CorreoElectronico" required><br><br>
+        <!--Password-->
+        <label for="Pass">Password: </label>
+        <input type="password" id="Pass" required> <br><br>
+        <!--Fecha de nacimiento-->
+        <label for="FechaNacimiento">Fecha de Nacimiento: </label>
+        <input type="date" id="FechaNacimiento"><br><br>
+        <!--Género-->
+        <label for="Masculino">Masculino</label>
+        <input type="radio" id="Masculino" name="genero" value="Masculino">
+        <label for="Femenino">Femenino</label>
+        <input type="radio" id="Femenino" name="genero" value="Femenino"><br><br>
+        <!--Intereses-->
+        <label for="Deportes">Deportes: </label>
+        <input type="checkbox" id="Deportes"><br>
+        <label for="Musica">Musica: </label>
+        <input type="checkbox" id="Musica" ><br>
+        <label for="Tecnologia">Tecnología: </label>
+        <input type="checkbox" id="Tecnologia"> <br><br>
+        <!--Paíss-->
+        <label for="Pais">País</label>
+        <select id="Pais">
+            <option value="España">España</option>
+            <option value="Francia">Francia</option>
+            <option value="Alemania">Alemania</option>
+        </select> <br> <br>
+        <!--Foto de Perfil-->
+        <label for="FotoPerfil">Foto de Perfil: </label>
+        <input type="file"><br><br>
+        <!--Boton Enviar-->
+        <input type="submit" value="Enviar"> <br><br>
+        <!--Boton Reset-->
+        <input type="reset" value="Reset">
+    </form>
+
+</body>
+</html>
