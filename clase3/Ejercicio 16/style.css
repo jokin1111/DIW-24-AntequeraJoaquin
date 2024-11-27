@@ -1,0 +1,16 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.imagen{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 0.5cm;
+    height: 200px;
+    width: 30vmax;
+    /*background-image: url("https://placehold.co/200x100");*/
+    margin: 1rem;
+    background-color: #808080;
+}
+
+

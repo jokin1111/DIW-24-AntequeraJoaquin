@@ -1,0 +1,14 @@
+#camposFormulario{
+    background-color: blueviolet;
+    width: fit-content;
+    margin: auto;
+}
+.etiqueta{
+    color: black;
+}
+#titulo{
+    background-color: blueviolet;
+    width: fit-content;
+    margin: auto;
+    margin-top: 300px;
+}

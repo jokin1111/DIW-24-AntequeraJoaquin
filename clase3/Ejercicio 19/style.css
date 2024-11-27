@@ -1,0 +1,15 @@
+#seccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 400px;
+    background: linear-gradient(to left, #ff000000, hsl(0, 100%, 50%));
+}
+#encabezado{
+    color: aquamarine;
+}
+#parrafo{
+    color: rgb(0, 255, 0);
+    background-color: rgba(0, 0, 155, 0.5);
+}

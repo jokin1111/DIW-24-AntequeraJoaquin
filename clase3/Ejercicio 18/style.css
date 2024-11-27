@@ -1,0 +1,17 @@
+body {
+    background-image: url("https://placehold.co/1200x800");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50%, 50%;
+}
+#welcome{
+    text-shadow:0.5px 0.5px 0.5px #ff0000; 
+    color: rgba(0,0,255,0.5);
+}
+
+#seccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

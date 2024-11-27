@@ -1,0 +1,31 @@
+#seccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#boton1{
+    height: 100px;
+    width: 200px;
+    color: hsl(0, 100%, 50%);
+    transition: 0.5s;
+}
+#boton1:hover{
+    background-color: #0000ff;
+}
+
+#boton2{
+    height: 100px;
+    width: 200px;
+    background-image: url("https://placehold.co/100x50");
+    background-size: cover;
+}
+
+#boton3{
+    height: 100px;
+    width: 200px;
+    background: linear-gradient(45deg, rgba(255, 0, 0, 0), hsla(0, 100%, 50%, 0.9));
+    color: chartreuse;
+}
+

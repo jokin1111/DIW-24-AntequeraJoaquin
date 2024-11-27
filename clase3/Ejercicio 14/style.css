@@ -1,0 +1,26 @@
+*{
+    font-family: "Prompt", "sans-serif";  
+}
+#tarjetaPresentacion {
+    background-color: aqua;
+    width: fit-content;
+}
+#contenedor {
+    padding: 10pt;
+    width: 350px;
+    height: 200px;
+    border: solid 2mm;
+    border-color: grey;
+    background-color: aquamarine;
+}
+#perfil {
+    width: 2in;
+    height: 2in;
+    border-radius: 50%;
+}
+#nombre {
+    font-size: 24pt;
+}
+#desc {
+    font-size: 15pt;
+}

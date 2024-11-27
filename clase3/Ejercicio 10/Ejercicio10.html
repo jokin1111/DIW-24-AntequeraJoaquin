@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css 1</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer>
+        function mensajeExitoso(){
+            let oculto = document.getElementById("formularioExitoso");
+            oculto.hidden = false;
+        }
+    </script>
+</head>
+<body>
+
+    <h2 id="titulo">Ejercicio 10</h2>
+
+    <section id="section">
+        <form method="post" enctype="application/x-www-form-urlencoded" autocomplete="on" id="camposFormulario" >
+            <fieldset>
+                <legend><strong>Formulario datos personales</strong></legend>
+
+                <label for="nombre" title="introduce tu nombre" class="etiqueta">Nombre: </label>
+                <input type="text" name="nombre" id="nombre" accesskey="n" required><br><br>
+
+                <label for="correoElectronico" title="introduce tu correo electrónico"  class="etiqueta">Email: </label>
+                <input type="email" name="correoElectronico" id="correoElectronico" accesskey="n" required> <br><br>
+                
+                <label for="texto" title="mensaje"  class="etiqueta">Mensaje: </label> <br> 
+                <textarea name="texto" id="texto" accesskey="m"></textarea> <br><br>
+
+                <input type="button" id="botonEnviar" value="Enviar formulario" accesskey="s" onclick="mensajeExitoso()">
+
+                <p id="formularioExitoso" hidden>Envio del formulario exitoso</p>
+            </fieldset>
+        </form>
+        
+    </section>      
+</body>
+</html>

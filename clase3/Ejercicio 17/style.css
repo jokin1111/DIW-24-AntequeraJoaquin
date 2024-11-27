@@ -1,0 +1,23 @@
+#contenedor{
+    width: 400px;
+    height: 20vw;
+    margin: auto;
+    background-color: hsl(184, 80%, 48%);
+    border: solid 2px;
+    border-color: rgb(0, 0, 0);
+}
+#nombre{
+    color: violet;
+}
+#desc{
+    color: #085bc7;
+}
+#boton{
+    background-color: rgba(255, 0, 0, 0.5);
+    color: hsl(138, 80%, 48%);
+    transition: 1s;
+}
+#boton:hover{
+    background-color: rgba(0, 0, 255, 0.5);
+    color: hsl(0, 80%, 48%);;
+}
