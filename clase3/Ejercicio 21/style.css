@@ -1,3 +1,19 @@
-#tarjetaPresentacion button {
-    
+* {
+    font-family: Georgia, 'Times New Roman';
+    font-size: 20px;
 }
+
+.tituloPoema{
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.poema {
+    text-align: center;
+    text-indent: 40px;
+    font-style: oblique;
+    line-height: 1.8;
+    letter-spacing: 2px;
+}   

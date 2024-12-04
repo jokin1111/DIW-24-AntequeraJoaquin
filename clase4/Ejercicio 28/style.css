@@ -1,0 +1,13 @@
+* *::before *::after {
+    box-sizing: inherit;
+}
+.cuadrado {
+    background-color: grey;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    margin-top: 325px;
+    border: solid 3px #000;
+    padding: 20px;
+    box-sizing: border-box;
+}

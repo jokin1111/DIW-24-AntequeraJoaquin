@@ -1,0 +1,49 @@
+:root{
+    --color-primario: #ff0000;
+    --color-secundario: #00ff00;
+    --color-fondo: #0000ff71;
+    --color-texto: #000000;
+    --color-sombra: #fffb00;
+    --precioOriginal: 10;
+    --precioDescuento: 5;
+}
+
+main {
+    
+}
+
+.lista{
+    background-color: var(--color-fondo);
+    width: 10rem;
+    height: fit-content;
+    text-align: center;
+}
+
+.lista li:nth-child(even){
+    color: var(--color-secundario);
+}
+
+.lista li:nth-child(odd){
+    color: var(--color-primario);
+}
+
+.lista .agotado:not(.disponible){
+    font-style: oblique;
+}
+
+.lista li:hover{
+    text-shadow: var(--color-sombra) 2px 2px;
+}
+
+.nuevo::before{
+    content: "Nuevo ➡️ ";
+}
+
+.agotado::after{
+    content: "➡️ Agotado ";
+}
+
+.lista::first-line{
+    font-style: oblique;
+}
+

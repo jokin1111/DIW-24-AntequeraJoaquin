@@ -1,0 +1,71 @@
+.contenedorAzul .contenedor__p--opaco{
+    background-color: blue;
+    padding: 10px;
+    width: fit-content;
+    color: white;
+    border-radius: 10px;
+}
+
+.contenedorAzul .contenedor__p--transp{
+    padding: 10px;
+    width: fit-content;
+    color: blue;
+    border-radius: 10px;
+    border: solid blue;
+}
+
+.contenedorAzul .contenedor__p--bordless{
+    color: blue;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: underline;
+}
+
+.contenedorNaranja .contenedor__p--opaco{
+    background-color: orange;
+    padding: 10px;
+    width: fit-content;
+    color: white;
+    border-radius: 10px;
+}
+
+.contenedorNaranja .contenedor__p--transp{
+    padding: 10px;
+    width: fit-content;
+    color: orange;
+    border-radius: 10px;
+    border: solid orange;
+}
+
+.contenedorNaranja .contenedor__p--bordless{
+    color: orange;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: underline;
+}
+
+.contenedorRojo .contenedor__p--opaco{
+    background-color: red;
+    padding: 10px;
+    width: fit-content;
+    color: white;
+    border-radius: 10px;
+}
+
+.contenedorRojo .contenedor__p--transp{
+    padding: 10px;
+    width: fit-content;
+    color: red;
+    border-radius: 10px;
+    border: solid red;
+}
+
+.contenedorRojo .contenedor__p--bordless{
+    color: red;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: underline;
+}

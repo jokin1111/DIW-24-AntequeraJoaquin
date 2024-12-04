@@ -1,0 +1,44 @@
+.formulario input:focus{
+    border: 5px solid blueviolet;
+    background-color: rgba(121, 209, 221, 0.774);
+}
+.formulario textarea:focus{
+    border: 5px solid blueviolet;
+    background-color: rgba(121, 209, 221, 0.774);
+}
+
+.formulario input:invalid{
+    border: 2px solid red;
+    background-color: beige;
+}
+
+.formulario textarea:invalid{
+    border: 2px solid red;
+    background-color: beige;
+}
+
+
+
+.formulario input::placeholder{
+    color: red;
+    opacity: 0.5;
+}
+
+.formulario textarea::placeholder{
+    color: red;
+    opacity: 0.5;
+}
+
+.formulario label.required::after{
+    content: " *";
+    color: red;
+}
+
+.formulario::selection {
+    background-color: brown;
+    color: crimson;
+}
+.formulario #enviar:valid{
+    border: 2px solid rgba(9, 255, 0, 0.37);
+    background-color: beige;
+}

@@ -1,0 +1,11 @@
+
+
+.boton{
+    height: 50px;
+    width: 150px;
+    padding: 10px;
+    margin: 20px auto 20px auto;
+    border: solid 2px #3498db;
+    border-radius: 5%; 
+}
+

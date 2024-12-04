@@ -1,0 +1,24 @@
+*{
+    font-family: sans-serif;
+    font-size: 16px;
+    word-spacing: 15px;
+}
+.navbar{
+    text-transform: uppercase;
+    font-variant: small-caps;
+    text-decoration: none;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+}
+
+.navbar a:active{
+    font-weight: 900;
+}
+
+
