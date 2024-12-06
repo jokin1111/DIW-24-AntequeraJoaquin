@@ -10,18 +10,18 @@
 }
 
 .contenedorAzul {
-    border: solid 6px blue;
+    border: solid 5px blue;
     padding: 10px;
 }
 
 .contenedorNaranja {
-    border: solid 6px orange;
+    border: solid 5px orange;
     padding: 10px;
 }
 
 .contenedorRojo {
     display: block;
-    border: solid 6px red;
+    border: solid 5px red;
     padding: 10px;
 }
 
