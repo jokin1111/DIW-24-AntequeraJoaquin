@@ -1,3 +1,30 @@
+.contenedores{
+    display: flex;
+    height: 200px;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 5px black;
+    margin: 300px auto;
+    padding: 10px;
+}
+
+.contenedorAzul {
+    border: solid 5px blue;
+    padding: 10px;
+}
+
+.contenedorNaranja {
+    border: solid 5px orange;
+    padding: 10px;
+}
+
+.contenedorRojo {
+    display: block;
+    border: solid 5px red;
+    padding: 10px;
+}
+
 .contenedorAzul .contenedor__p--opaco{
     background-color: blue;
     padding: 10px;
