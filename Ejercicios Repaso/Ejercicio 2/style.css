@@ -1,0 +1,41 @@
+body{
+    display: flex; 
+    background-color: rgb(238, 233, 233);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contenedor {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.formulario button{
+    background-color: rgb(18, 189, 231);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.formulario .input{
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px grey;
+    width: 280px;
+}
+
+.formulario label{
+    margin-bottom: 5px;
+}
+
+.formulario p{
+    color: #3333333f;
+    text-align: center;
+    margin-top: 2px;
+}

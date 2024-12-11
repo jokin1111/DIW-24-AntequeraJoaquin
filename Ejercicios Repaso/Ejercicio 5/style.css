@@ -1,0 +1,17 @@
+:root {
+    --color-fondo-body: #B4B4B4;
+    --color-fondo-tarjeta: #FFFFFF;
+    --margen: 10px;
+    --padding: 10px;
+}
+body{
+    background-color: var(--color-fondo-body);
+}
+.tarjeta {
+    background-color: var(--color-fondo-tarjeta);
+    margin: var(--margen);
+    margin-left: 500px;
+    padding: var(--padding);
+    width: 800px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}

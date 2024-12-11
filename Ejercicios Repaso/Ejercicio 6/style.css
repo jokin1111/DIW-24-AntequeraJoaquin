@@ -1,0 +1,29 @@
+:root {
+    --fondo-oscuro: rgb(36, 32, 32);
+    --fondo-claro: white;
+    --color-oscuro: white;
+    --color-claro:black;
+    --boton-claro: rgb(77, 77, 238);
+}
+
+body {
+    background-color: var(--fondo-claro);
+    color: var(--color-claro);
+}
+
+.boton{
+    background-color: var(--boton-claro);
+    color: var(--color-oscuro);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.boton:checked{
+    background-color: var(--fondo-oscuro);
+    color: var(--color-oscuro);
+}
+
+body[data-theme="dark"] {
+    background-color: var(--color-fondo-oscuro);
+    color: var(--color-texto-oscuro);
+}

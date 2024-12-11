@@ -1,0 +1,57 @@
+:root {
+    --color-principal: rgb(66, 65, 65);
+    --color-fuente: white;
+    --color-nav: rgb(156, 150, 150);
+}
+
+*{
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    background-color: var(--color-principal);
+    color: var(--color-fuente);
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    background-color: var(--color-nav);
+    text-decoration: none;
+    height: 50px;
+    align-items: center;
+}
+
+.navbar a{
+    margin: 10px;
+}
+
+.navbar a:link{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    margin: 20px auto 10px 50px;
+}
+
+main p{
+    margin-bottom: 20px;
+}
+
+.piePag {
+    display: flex;
+    background-color: var(--color-principal);
+    color: var(--color-fuente);
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,21 @@
+.tabla {
+    border: solid 1px white;
+    border-collapse: collapse;
+}
+.tabla th{
+    border: solid 1px white;
+    background-color: aqua;
+    width: 300px;
+    text-align: left;
+    color: white;
+}
+
+.tabla tr:nth-child(even) {
+    border: solid 1px white;
+    background-color: white;
+}
+
+.tabla tr:nth-child(odd) {
+    border: solid 1px white;
+    background-color: grey;
+}
