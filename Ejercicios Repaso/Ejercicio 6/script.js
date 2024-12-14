@@ -1,19 +1,12 @@
-// Seleccionar el botón y el body
-const button = document.getElementById('theme-toggle');
-const body = document.body;
-
-// Detectar el tema actual y alternar entre los temas
-button.addEventListener('click', () => {
-    if (body.classList.contains('tema-claro')) {
-        body.classList.remove('tema-claro');
-        body.classList.add('tema-oscuro');
-        button.textContent = 'Cambiar a Tema Claro';
-    } else {
-        body.classList.remove('tema-oscuro');
-        body.classList.add('tema-claro');
-        button.textContent = 'Cambiar a Tema Oscuro';
+const cambiar = document.getElementById("cambiar");
+const cuerpo = document.querySelector(".temaClaro");
+cambiar.addEventListener("click", function(event){
+    if (cuerpo.classList.contains("temaClaro")){
+        cuerpo.classList.remove("temaClaro");
+        cuerpo.classList.add("temaOscuro");
+    }
+    else if (cuerpo.classList.contains("temaOscuro")){
+        cuerpo.classList.remove("temaOscuro");
+        cuerpo.classList.add("temaClaro");
     }
 });
-
-// Establecer el tema inicial (por defecto es el claro)
-document.body.classList.add('tema-claro');

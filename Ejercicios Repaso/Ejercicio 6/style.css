@@ -2,64 +2,47 @@
 :root {
     --color-fondo-claro: #ffffff;
     --color-fondo-oscuro: #121212;
+
     --color-texto-claro: #000000;
     --color-texto-oscuro: #ffffff;
+
     --color-boton-claro: #007bff;
     --color-boton-oscuro: #6200ea;
+
     --color-boton-hover-claro: #0056b3;
     --color-boton-hover-oscuro: #3700b3;
 }
 
-/* Estilos generales */
-body {
-    font-family: Arial, sans-serif;
-    transition: background-color 0.3s, color 0.3s;
-}
-
 /* Estilos para el tema claro */
-body.tema-claro {
+.temaClaro {
     background-color: var(--color-fondo-claro);
     color: var(--color-texto-claro);
 }
 
-/* Estilos para el tema oscuro */
-body.tema-oscuro {
+.temaClaro button{
+    background-color: var(--color-boton-claro);
+    padding: 5px;
+}
+
+.temaClaro button:hover{
+    background-color: var(--color-boton-hover-claro);
+    cursor: pointer;
+}
+/*FIN Estilos para el tema claro */
+
+/* Estilos tema oscuro */
+.temaOscuro {
     background-color: var(--color-fondo-oscuro);
     color: var(--color-texto-oscuro);
 }
 
-/* Estilo del contenedor principal */
-.container {
-    text-align: center;
-    padding: 50px;
-}
-
-/* Estilo del botón de cambio de tema */
-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-/* Estilos para el tema claro */
-body.tema-claro button {
-    background-color: var(--color-boton-claro);
-    color: white;
-}
-
-body.tema-claro button:hover {
-    background-color: var(--color-boton-hover-claro);
-}
-
-/* Estilos para el tema oscuro */
-body.tema-oscuro button {
+.temaOscuro button{
     background-color: var(--color-boton-oscuro);
-    color: white;
+    padding: 5px;
 }
 
-body.tema-oscuro button:hover {
+.temaOscuro button:hover{
     background-color: var(--color-boton-hover-oscuro);
+    cursor: pointer;
 }
+/*FIN Estilos tema oscuro */

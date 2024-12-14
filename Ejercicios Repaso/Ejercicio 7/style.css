@@ -1,5 +1,5 @@
 body{
-    display: flex; 
+    
     background-color: rgb(238, 233, 233);
     justify-content: center;
     align-items: center;
@@ -8,10 +8,12 @@ body{
 }
 
 .contenedor {
+    display: flex;
     background-color: white;
     padding: 10px;
     border-radius: 10px;
     width: fit-content;
+    margin: auto;
 }
 
 .formulario button{
@@ -41,5 +43,10 @@ body{
 }
 
 .formulario button {    
+    width: 300px;
+}
+
+.formulario select{
+    padding: 5px;
     width: 300px;
 }

@@ -14,3 +14,12 @@
     gap: 10px;
     width: 700px;
 }
+
+.contenedor img{
+    border-radius: 5px;
+}
+
+.contenedor img:hover {
+    background-image: none;
+    filter: invert(100%);
+}

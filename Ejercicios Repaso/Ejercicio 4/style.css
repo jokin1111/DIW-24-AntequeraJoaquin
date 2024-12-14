@@ -30,6 +30,15 @@ body{
     width: 280px;
 }
 
+.formulario .input:empty {
+    border: solid 1px red;
+}
+
+.formulario .input:focus {
+    border: solid 1px cornflowerblue;
+    outline: none;
+}
+
 .formulario label{
     margin-bottom: 5px;
 }

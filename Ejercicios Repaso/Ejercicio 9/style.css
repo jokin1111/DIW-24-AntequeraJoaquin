@@ -1,0 +1,49 @@
+:root {
+    --color-principal: rgb(66, 65, 65);
+    --color-fuente: white;
+}
+
+*{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-principal);
+    color: var(--color-fuente);
+    height: 200px;
+}
+
+header h1{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+header h3 {
+    font-size: medium;
+    font-weight: 100;
+}
+
+.tarjeta {
+    margin: 10px;
+    padding: 20px;
+}
+
+.tarjeta p{
+    margin: 10px;
+}
+
+.tarjeta h2{
+    margin: 20px;
+}
+
+.tarjeta:nth-child(odd) {
+    background-color: lightgrey;
+}
+
+.tarjeta:nth-child(even) {
+    background-color: rgb(238, 233, 233);
+}

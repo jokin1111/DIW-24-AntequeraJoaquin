@@ -8,6 +8,11 @@
     width: 300px;
     text-align: left;
     color: white;
+    padding: 5px;
+}
+
+.tabla tr{
+    padding: 10px;
 }
 
 .tabla tr:nth-child(even) {

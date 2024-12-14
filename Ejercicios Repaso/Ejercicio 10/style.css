@@ -1,0 +1,77 @@
+:root {
+    --color-principal: rgb(61, 112, 187);
+    --color-fuente: white;
+    --color-nav: lightgrey;
+}
+
+*{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-principal);
+    color: var(--color-fuente);
+    height: 200px;
+}
+
+header h1{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+header h3 {
+    font-size: medium;
+    font-weight: 100;
+}
+
+.navbar {
+    display: flex;
+    background-color: var(--color-nav);
+    text-decoration: none;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;;
+}
+
+.navbar a:hover{
+    color: black;
+}
+
+.navbar a:link:hover{
+    color: blueviolet;
+}
+
+.navbar a:visited:hover{
+    color: blueviolet;
+}
+
+.tarjeta {
+    margin: 10px;
+    padding: 20px;
+}
+
+.tarjeta p{
+    margin: 10px;
+}
+
+.tarjeta h2{
+    margin: 20px;
+}
+
+.tarjeta:nth-child(odd) {
+    background-color: lightgrey;
+}
+
+.tarjeta:nth-child(even) {
+    background-color: rgb(238, 233, 233);
+}
