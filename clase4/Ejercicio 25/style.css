@@ -8,10 +8,6 @@
     --precioDescuento: 5;
 }
 
-main {
-    
-}
-
 .lista{
     background-color: var(--color-fondo);
     width: 10rem;
