@@ -1,0 +1,24 @@
+.contenedor-precios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.contenedor-precios-normal {
+    border: solid 1px black;
+    padding: 10px;
+}
+
+.contenedor-precios-destacado {
+    border: solid 1px green;
+    padding: 10px;
+}
+
+.contenedor-precios-normal h1{
+    color: darkcyan;
+}
+
+.contenedor-precios-destacado {
+    color: brown;
+    font-style: oblique;
+}

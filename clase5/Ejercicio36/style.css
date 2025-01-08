@@ -1,0 +1,30 @@
+.barra-navegacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: chocolate;
+    padding: 20px;
+    
+}
+.logotipo{
+    display: flex;
+    justify-items: flex-start;
+}
+
+.links{
+    padding: 20px;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.links a {
+    color: black;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}

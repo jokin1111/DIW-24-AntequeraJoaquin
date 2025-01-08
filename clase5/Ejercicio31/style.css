@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.titulo{
+    display: flex;
+    background-color: rgb(19, 41, 163);
+    color: white;
+    padding: 40px;
+    justify-content: center;
+}
+
+.tarjetas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.tarjeta{
+    background-color: grey;
+    margin: 20px;
+    padding: 20px;
+    width: 80%;
+}
+
+.tarjeta h1, p {
+    margin: 10px;
+}
+
+.menu{
+    position: absolute;
+    top: 100px;
+    left: 80%;
+    z-index: 2;
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    border: solid 1px black;
+}
+
+.boton{
+    float: right;
+    margin: 20px;
+    margin-right: 40px;
+}

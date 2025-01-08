@@ -1,0 +1,10 @@
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.contenedor img:hover{
+    height: 400px;
+    width: 400px;
+}

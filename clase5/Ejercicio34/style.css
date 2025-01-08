@@ -1,0 +1,7 @@
+.caja{
+    justify-self: center;
+    width: 500px;
+    height: 200px;
+    background-image: linear-gradient(75deg, aqua, red);
+    overflow: scroll;
+}

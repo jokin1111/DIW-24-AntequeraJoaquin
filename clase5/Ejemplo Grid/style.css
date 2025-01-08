@@ -1,0 +1,15 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    gap: 10px;
+    justify-content: center;
+}
+
+.contenedor div:nth-child(even){
+    background-color: red;
+}
+
+.contenedor div:nth-child(odd){
+    background-color: green;
+}

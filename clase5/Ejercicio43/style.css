@@ -1,0 +1,23 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    grid-template-areas: 
+    "1 1 1"
+    "2 3 4"
+    "5 6 7";
+    gap: 1px;
+    justify-content: center;
+}
+
+.contenedor .columna1{
+    grid-area: 1;
+}
+
+.contenedor div:nth-child(even){
+    background-color: red;
+}
+
+.contenedor div:nth-child(odd){
+    background-color: green;
+}

@@ -1,0 +1,11 @@
+.contenedor-imagenes .imagenIzq {
+    float: left;
+}
+
+.contenedor-imagenes .imagenDer {
+    float: right;
+}
+
+.contenedor-imagenes .imagenDer::after {
+    clear: both;
+}

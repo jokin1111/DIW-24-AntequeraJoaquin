@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+}
+
+.col-izq{
+    height: 100vh;
+    width: 100px;
+    flex-grow: 1.5;
+    background-color: #0e7c74;
+}
+.col-derecha {
+    display: flex;
+    flex-direction: column;
+    
+}
+.col-derecha .alta {
+    display: flex;
+    height: 50vh;
+    width: 500px;
+}
+
+.col-derecha .baja {
+    display: flex;
+    height: 50vh;
+    width: 500px;
+    justify-self: end;
+}
+
+
+.col-izq p{
+    padding: 10px;
+    color: white;
+}
+
+.col-derecha p{
+    padding: 10px;
+}

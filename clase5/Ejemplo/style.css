@@ -1,0 +1,272 @@
+.fila {
+    display: flex;
+    flex-direction: row;
+    margin:15px;
+    width: 500px;
+    gap: 10px;
+}
+.fila-reversa {
+    margin:15px;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 500px;
+    gap: 10px;
+}
+.columna {
+    margin:15px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+}
+.columna-reversa{
+    margin:15px;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 300px;
+    gap: 10px;
+}
+
+.wrap{
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 300px;
+    gap: 10px;
+}
+
+.no-wrap{
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 600px;
+    gap: 10px;
+}
+
+.justificado-start {
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    gap: 10px;
+    justify-content: start;
+}
+
+.justificado-end {
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    gap: 10px;
+    justify-content: end;
+}
+
+.justificado-centro {
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.justificado-between {
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.justificado-around {
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.justificado-evenly {
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.alineado-item-start {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+    align-items: flex-start;
+    background-color: black;
+}
+
+.alineado-item-end {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+    align-items: flex-end;
+    background-color: black;
+}
+
+.alineado-item-center {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+    align-items: center;
+    background-color: black;
+}
+
+.alineado-item-strech{
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    gap: 10px;
+    align-items: stretch;
+    background-color: black;
+}
+
+/* A partir de aquí complicao */
+
+.alineado-content-start{
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 600px;
+    gap: 10px;
+    align-content: start;
+    background-color: black;
+}
+
+.alineado-content-end {
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 600px;
+    gap: 10px;
+    align-content: end;
+    background-color: black;
+}
+
+.ordenado {
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    order: -1;
+    background-color: black;
+}
+
+.no-ordenado {
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    order: -1;
+    background-color: black;
+}
+
+.creciente {
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+.medio-flex-end{
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    gap: 10px;
+    background-color: aquamarine;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.uno-flex-end{
+    background-color: blueviolet;
+    padding: 20px;
+    color: white;
+}
+
+.dos-flex-end{
+    background-color: blueviolet;
+    padding: 20px;
+    color: white;
+}
+
+.tres-flex-end{
+    background-color: blueviolet;
+    padding: 20px;
+    color: white;
+    align-self: flex-end;
+}
+
+.cuatro-flex-end{
+    background-color: blueviolet;
+    padding: 20px;
+    color: white;
+}
+
+.uno{
+    background-color: blueviolet;
+    padding: 20px;
+    color: white;
+}
+
+.dos{
+    background-color: blueviolet;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    flex-grow: 2;
+}
+
+.tres{
+    background-color: blueviolet;
+    padding: 20px;
+    color: white;
+}
+
+.azul{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+.rojo {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.verde {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+.otro{
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+}
