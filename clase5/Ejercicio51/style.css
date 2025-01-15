@@ -1,0 +1,54 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "columna1 columna4"
+    "columna2 columna5"
+    "columna3 columna6"; 
+    gap: 1px;
+    text-align: center;
+    border: solid black 1px;
+}
+
+.columna1 {
+    border: solid black 1px;
+    
+    grid-area: columna1;
+}
+
+.columna2 {
+    border: solid black 1px;
+    grid-area: columna2;
+}
+
+.columna3 {
+    border: solid black 1px;
+    grid-area: columna3;
+}
+
+.columna4 {
+    border: solid black 1px;
+    grid-area: columna4;
+}
+
+.columna5 {
+    border: solid black 1px;
+    grid-area: columna5;
+}
+
+.columna6 {
+    border: solid black 1px;
+    grid-area: columna6;
+}
+.columna {
+    background-color: #33333338;
+}
+
+/* .contenedor div:nth-child(even){
+    background-color: red;
+}
+
+.contenedor div:nth-child(odd){
+    background-color: green;
+} */
